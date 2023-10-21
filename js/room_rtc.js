@@ -25,7 +25,7 @@ if (!roomId) {
 // Checking if there is a displayname, if not than navigate the user to lobby
 let displayName = sessionStorage.getItem("display_name");
 if (!displayName) {
-  window.location = "lobby.html";
+  window.location = "index.html";
 }
 
 // for our audio and video
